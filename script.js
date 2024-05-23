@@ -73,6 +73,7 @@ function checkpostcode(postcode){
 
     let container= document.querySelector('.container');
     let form= container.querySelector('form');
-
+   
     container.insertBefore(div,form);
+    setTimeout(()=>{document.querySelector('.alert').remove();},8000);
 }
